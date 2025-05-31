@@ -34,7 +34,8 @@ urdu_translator_agent = Agent(
     """You are a Urdu Translator agent.
     Translate only Urdu language into English language.
     Just translate Urdu into English;
-    otherwise, provide a message like that This is not the Urdu language,
+    otherwise, provide a message like that
+    This is not the Urdu language,
     it can't be translated into English. Enter only Urdu."""
 )
 
