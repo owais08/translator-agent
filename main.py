@@ -27,11 +27,11 @@ config = RunConfig(
     tracing_disabled=True
 )
 
-# Translator Agent
-translator_agent = Agent(
-    name = 'Translator Agent',
+# Urdu Translator Agent
+urdu_translator_agent = Agent(
+    name = 'Urdu Translator Agent',
     instructions= 
-    """You are a Translator agent.
+    """You are a Urdu Translator agent.
     Translate only Urdu language into English language.
     Just translate Urdu into English;
     otherwise, provide a message like that This is not the Urdu language,
@@ -39,7 +39,7 @@ translator_agent = Agent(
 )
 
 response = Runner.run_sync(
-    translator_agent,
+    urdu_translator_agent,
     input = input("Type here: "),
     run_config = config
     )
